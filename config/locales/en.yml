@@ -28,6 +28,55 @@
 #
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  layouts:
+    application:
+      apptitle: "Ruby on Rails Tutorial Sample App"
+    header:
+      title_logo: "sample app"
+      tab_home: "Home"
+      tab_login: "Log in"
+      tab_help: "Help"
+    footer:
+      title_tut: "Ruby on Rails Tutorial"
+      url_tut: "http://www.railstutorial.org/"
+      f_the : "The"
+      f_by : "by"
+      name_author: "Michael Hartl"
+      url_author: "http://www.michaelhartl.com/"
+      title_about: "About"
+      title_contact: "Contact"
+      title_news: "News"
+      url_news : "http://news.railstutorial.org/"
+  users:
+    new:
+      sign_up: "Sign up"
+      p_content: "This will be a signup page for new users."
+  static_pages:
+    home: 
+      title: "Home"
+      home_welcome: "Welcome to the Sample App"
+      body1: "This is the home page for the"
+      body2: "sample application."
+      title_tut: "Ruby on Rails Tutorial"
+      url_tut: "http://www.railstutorial.org/"
+      sign_up: "Sign up now!"
+      logo_alt: "rails logo"
+    about:
+      title: "About"
+      body: "This is the sample application for the tutorial."
+      title_tut: "Ruby on Rails Tutorial"
+      url_tut: "http://www.railstutorial.org/"
+    help:
+      title: "Help"
+      body1: "Get help on the Ruby on Rails Tutorial at the"
+      title_help: "Rails Tutorial help section"
+      body2: "To get help on this sample app, see the"
+      title_tut: "Ruby on Rails Tutorial"
+      url_tut: "http://www.railstutorial.org/book"
+      url_help: "http://www.railstutorial.org/help"
+    contact:
+      title: "Contact"
+      body: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      title_contact: "contact page"
+      url_contact: "http://www.railstutorial.org/contact"
