@@ -48,14 +48,24 @@ en:
       title_contact: "Contact"
       title_news: "News"
       url_news : "http://news.railstutorial.org/"
+  users:
+    new:
+      sign_up: "Sign up"
+      p_content: "This will be a signup page for new users."
+      create_account: "Create my account"
+      pass_confirm: "Confirmation"
+    create:
+      welcome: "Welcome to the Sample App!"
   static_pages:
-    home:
+    home: 
       title: "Home"
       home_welcome: "Welcome to the Sample App"
       body1: "This is the home page for the"
       body2: "sample application."
       title_tut: "Ruby on Rails Tutorial"
       url_tut: "http://www.railstutorial.org/"
+      sign_up: "Sign up now!"
+      logo_alt: "rails logo"
     about:
       title: "About"
       body: "This is the sample application for the tutorial."
@@ -74,7 +84,7 @@ en:
       body: "Contact the Ruby on Rails Tutorial about the sample app at the"
       title_contact: "contact page"
       url_contact: "http://www.railstutorial.org/contact"
-  users:
-    new:
-      sign_up: "Sign up"
-      p_content: "This will be a signup page for new users."
+  shared:
+    error_messages:
+      form_error: "The form contains"
+      error: "error"
