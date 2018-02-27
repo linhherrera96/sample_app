@@ -98,5 +98,7 @@ en:
       login: "Log in"
       sign_up: "Sign up now!"
       new_user: "New user?"
+      remember: "Remember me on this computer"
     create:
       login_error: "Invalid email/password combination"
+
