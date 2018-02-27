@@ -33,10 +33,15 @@ en:
     application:
       apptitle: "Ruby on Rails Tutorial Sample App"
     header:
-      title_logo: "sample app"
-      tab_home: "Home"
-      tab_login: "Log in"
-      tab_help: "Help"
+      header_logo: "sample app"
+      loca_home: "Home"
+      content_login: "Log in"
+      loca_help: "Help"
+      content_profile: "Profile"
+      content_settings: "Settings"
+      content_logout: "Logout"
+      content_users: "Users"
+      content_Account: "Account"
     footer:
       title_tut: "Ruby on Rails Tutorial"
       url_tut: "http://www.railstutorial.org/"
@@ -88,3 +93,10 @@ en:
     error_messages:
       form_error: "The form contains"
       error: "error"
+  sessions:
+    new:
+      login: "Log in"
+      sign_up: "Sign up now!"
+      new_user: "New user?"
+    create:
+      login_error: "Invalid email/password combination"
