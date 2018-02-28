@@ -54,6 +54,10 @@ en:
       title_news: "News"
       url_news : "http://news.railstutorial.org/"
   users:
+    index:
+      all_users: "All user"
+    show:
+      user_not_exist: "User does not exist"
     new:
       sign_up: "Sign up"
       p_content: "This will be a signup page for new users."
@@ -61,6 +65,25 @@ en:
       pass_confirm: "Confirmation"
     create:
       welcome: "Welcome to the Sample App!"
+    edit:
+      edit_title: "Edit user"
+      update_title: "Update your profile"
+      confirm: "Confirmation"
+      save_change: "Save changes"
+      change: "Change"
+    logged_in_user:
+      pls_login: "Please log in."
+    update:
+      update_success: "Profile updated"
+      update_fail: "Updating information failed"
+    user:
+      delete: "Delete"
+      answer: "Are you sure?"
+    destroy:
+      notifi: "User deleted"
+      fail: "Delete fail"
+    correct_user:
+      permission: "You do not have permission to edit other people's information"
   static_pages:
     home: 
       title: "Home"
@@ -101,4 +124,3 @@ en:
       remember: "Remember me on this computer"
     create:
       login_error: "Invalid email/password combination"
-
