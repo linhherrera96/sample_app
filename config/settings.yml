@@ -3,3 +3,6 @@ user:
   email_length: 255
   password_length: 6
   avatar_size: 80
+  avatarsizeshow: 50
+  checked: "1"
+  
