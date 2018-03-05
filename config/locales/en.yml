@@ -65,6 +65,7 @@ en:
       pass_confirm: "Confirmation"
     create:
       welcome: "Welcome to the Sample App!"
+      check: "Please check your email to activate your account."
     edit:
       edit_title: "Edit user"
       update_title: "Update your profile"
@@ -124,3 +125,18 @@ en:
       remember: "Remember me on this computer"
     create:
       login_error: "Invalid email/password combination"
+      not_activated: "Account not activated. Check your email for the activation link."
+  account_activations:
+    edit:
+      activated: "Account activated!"
+      unactivated: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      hi: "Hi"
+      content: "Welcome to the Sample App! Click on the link below to activate your account:"
+      title: "Sample App"
+      active: "Activate"
+    password_reset:
+      greeting: "Hi"
+      to: "to@example.org"
