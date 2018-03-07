@@ -5,4 +5,5 @@ user:
   avatar_size: 80
   avatarsizeshow: 50
   checked: "1"
+  expiredtime: 2
   
