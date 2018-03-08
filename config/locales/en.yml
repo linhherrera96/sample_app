@@ -29,6 +29,9 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 en:
+  micropost_javascript:
+    alert:
+      pls_choose: "Maximum file size is 5MB. Please choose a smaller file."
   layouts:
     application:
       apptitle: "Ruby on Rails Tutorial Sample App"
@@ -85,6 +88,9 @@ en:
       fail: "Delete fail"
     correct_user:
       permission: "You do not have permission to edit other people's information"
+  model:
+    micropost:
+      picture_size: "Should be less than 5MB"
   static_pages:
     home: 
       title: "Home"
@@ -95,6 +101,7 @@ en:
       url_tut: "http://www.railstutorial.org/"
       sign_up: "Sign up now!"
       logo_alt: "rails logo"
+      h3: "Micropost Feed"
     about:
       title: "About"
       body: "This is the sample application for the tutorial."
@@ -117,6 +124,11 @@ en:
     error_messages:
       form_error: "The form contains"
       error: "error"
+    user_info_html:
+      link_view: "view my profile"
+    micropost_form_html:
+      placeholder: "Compose new micropost..."
+      submit_post: "Post"
   sessions:
     new:
       login: "Log in"
@@ -159,4 +171,15 @@ en:
       status4: "Can't be empty"
       status5: "Password has been reset."
       status6: "Password reset has expired."
-      
+  microposts:
+    micropost_html:
+      post: "Posted"
+      ago: "ago"
+      link_delete: "Delete"
+      content_sure: "You sure?"
+    controller:
+      create_success: "Micropost created!"
+      destroy_success: "Micropost deleted"
+      destroy_danger: "Micropost Fail"
+    show:
+      content: "Microposts"
