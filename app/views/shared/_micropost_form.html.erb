@@ -1,0 +1,11 @@
+<%= form_for @micropost do |f| %>
+  <%= render "shared/error_messages", object: f.object %>
+  <div class="field">
+    <%= f.text_area :content, placeholder: t("shared.micropost_form_html.placeholder") %>
+  </div>
+  <%= f.submit t("shared.micropost_form_html.submit_post"), class: "btn btn-primary" %>
+  <span class="picture">
+    <%= f.file_field :picture, accept: "image/jpeg,image/gif,image/png" %>
+  </span>
+<% end %>	
+<%= javascript_include_tag "micropost_javascript" %>

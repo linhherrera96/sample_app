@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
   default_url_options :host => "localhost:3000"
 
-   root "static_pages#home"
+  root "static_pages#home"
+  get "sessions/new"
   
   get "/help", to: "static_pages#help"
   get "/about", to: "static_pages#about"
@@ -18,4 +19,5 @@ Rails.application.routes.draw do
   resources :users
   resources :account_activations, only: [:edit]
   resources :password_resets, except: %i(index show destroy)
+  resources :microposts, only: [:create, :destroy]
 end

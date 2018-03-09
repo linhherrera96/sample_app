@@ -3,12 +3,14 @@ class UsersController < ApplicationController
   before_action :load_user, except: %i(index new create)
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: :destroy
-  
+
   def index
     @users = User.activated.paginate page: params[:page]
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.swap.paginate page: params[:page]
+  end
 
   def new
     @user = User.new

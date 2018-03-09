@@ -6,4 +6,10 @@ user:
   avatarsizeshow: 50
   checked: "1"
   expiredtime: 2
+micropost:
+  number_maximum: 140
+  number_micropost_html: 50
+  picture_size: 5
+user_info_html:
+  number_size: 50
   
