@@ -88,6 +88,14 @@ en:
       fail: "Delete fail"
     correct_user:
       permission: "You do not have permission to edit other people's information"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    followers:
+      followers: "Followers"
+    following:
+      following: "Following"
   model:
     micropost:
       picture_size: "Should be less than 5MB"
@@ -129,6 +137,9 @@ en:
     micropost_form_html:
       placeholder: "Compose new micropost..."
       submit_post: "Post"
+    stats:
+      following: "Following"
+      followers: "Followers"
   sessions:
     new:
       login: "Log in"
@@ -182,4 +193,7 @@ en:
       destroy_success: "Micropost deleted"
       destroy_danger: "Micropost Fail"
     show:
-      content: "Microposts"
+      content: "Microposts" 
+  relationships:
+    create:
+      error: "Occur error"

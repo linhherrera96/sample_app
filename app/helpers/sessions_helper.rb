@@ -49,4 +49,8 @@ module SessionsHelper
   def store_location
     session[:forwarding_url] = request.original_url if request.get?
   end
+
+  def create_new_current_user
+    @user ||= current_user
+  end
 end
